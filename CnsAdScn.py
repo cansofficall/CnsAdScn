@@ -28,7 +28,6 @@ def findAdmin():
 			continue
 		else:
 			print "OK => ",req_link
-npm install figlet
 def Credit():
 	var figlet = require('figlet');
  
