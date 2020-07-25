@@ -12,8 +12,8 @@ def Space(j):
 
 def findAdmin():
 	f = open("link.txt","r");
-	link = raw_input("Enter Site Name \n(ex : example.com or www.example.com ): ")
-	print "\n\nAvilable links : \n"
+	link = raw_input("Site Adı \n(Domain : example.com Yada www.example.com ): ")
+	print "\n\Mevcut Köprüler : \n"
 	while True:
 		sub_link = f.readline()
 		if not sub_link:
@@ -27,13 +27,13 @@ def findAdmin():
 		except URLError as e:
 			continue
 		else:
-			print "OK => ",req_link
+			print "Başarılı => ",req_link
 def Credit():
-Space(9); print" # # ### ##   ## ###  ## " 
-Space(9); print" # # #   # # #   # # #   "
-Space(9); print" ### ##  ##  #   # #  #  "
-Space(9); print" ### #   # # #   # #   # "
-Space(9); print" # # ### ##   ## # # ##  "
-Space(9); print" İnstagram: can_s_officiall"
+	Space(9); print "#####################################"
+	Space(9); print "#             CnsAdScn.py           #"
+	Space(9); print "#     İnstagram can_s_officiall     #"
+	Space(9); print "#           ÇevrilmişProgram        #"
+	Space(9); print "#####################################"
+
 Credit()
 findAdmin()
