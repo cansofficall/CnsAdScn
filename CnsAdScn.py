@@ -29,11 +29,10 @@ def findAdmin():
 		else:
 			print "Başarılı => ",req_link
 def Credit():
-	Space(9); print "#####################################"
-	Space(9); print "#             CnsAdScn.py           #"
-	Space(9); print "#     İnstagram can_s_officiall     #"
-	Space(9); print "#           ÇevrilmişProgram        #"
-	Space(9); print "#####################################"
+	
+	Space(9); print "              CnsAdScn.py           "
+	Space(9); print"       İnstagram can_s_officiall     "
+	Space(9); print "            ÇevrilmişProgram        "
 
 Credit()
 findAdmin()
