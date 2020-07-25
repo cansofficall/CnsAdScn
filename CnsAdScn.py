@@ -29,16 +29,11 @@ def findAdmin():
 		else:
 			print "OK => ",req_link
 def Credit():
-	var figlet = require('figlet');
- 
-figlet('WEBCNS', function(err, data) {
-    if (err) {
-        console.log('Something went wrong...');
-        console.dir(err);
-        return;
-    }
-    console.log(data)
-});
-
+Space(9); print" # # ### ##   ## ###  ## " 
+Space(9); print" # # #   # # #   # # #   "
+Space(9); print" ### ##  ##  #   # #  #  "
+Space(9); print" ### #   # # #   # #   # "
+Space(9); print" # # ### ##   ## # # ##  "
+Space(9); print" İnstagram: can_s_officiall"
 Credit()
 findAdmin()
